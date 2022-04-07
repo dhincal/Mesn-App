@@ -26,6 +26,19 @@ function LastTimeHandler(time){
         return years + "y";
     }
 }
+function LastMessageTruncate(message){
+    if(message.length > 65){
+        if(message.endsWith(" ")){
+            return message.substring(0,64)+"...";
+        }    
+        else{
+            return message.substring(0,63)+"...";
+        }
+    }
+    else{
+        return message;
+    }
+}
 
 function UserBrief({imgSrc, username, lastMessage, unreadMessageCount, lastTime}){
     imgSrc="/../public/dorpak.jpg"
