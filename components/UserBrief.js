@@ -10,11 +10,11 @@ function LastTimeHandler(time){
         return parseInt(time / 60)+"h";
     }
     else if(parseInt(time / 60) >= 24 && (parseInt(time/60)/24 < 7)){ //Convert time to days
-        var days = parseInt(time / 60) / 24;
+        var days = parseInt(time / 60 / 24) ;
         return days + "d";
     }
     else if((parseInt(time/60)/24 >= 7) && (parseInt(time/60)/24)/30 < 1){ //Convert time to weeks
-       var weeks = (parseInt(time/60)/24)/7;
+        var weeks = parseInt(((time/60)/24)/7);
        return weeks + "w";
     }
     else if((parseInt(time/60)/24)/30 >= 1 && parseInt(time/60/24/30/12) < 1){ //Convert time to months
