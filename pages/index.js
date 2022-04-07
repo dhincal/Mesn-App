@@ -19,6 +19,13 @@ export default function Home() {
         </div>
         <Image src="/../public/adem_ilter.jpg" className="rounded-full"width={48} height={48} />
       </div>
+      <div className="message-select w-1/3">
+        <div className="flex flex-row justify-between items-center px-8 h-16 border-b-2 border-r-2">
+          <h1 className="font-bold text-3xl">Message</h1>
+          <a className="not-active flex w-12 h-12 rounded-2xl text-3xl items-center justify-center p-4"><i class='bx bxs-message-rounded-add opacity-25'></i></a>
+        </div>
+      </div>
+
     </div>    
     
     </div>
