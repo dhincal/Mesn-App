@@ -25,7 +25,7 @@ export default function Home() {
           <a className="not-active flex w-12 h-12 rounded-2xl text-3xl items-center justify-center p-4"><i class='bx bxs-message-rounded-add opacity-25'></i></a>
         </div>
         <div className="last-messages flex flex-col h-full items-center">
-          <div className="group input-container flex flex-row items-center rounded-xl bg-gray-100 search-input-focus:ring-1">
+          <div className="group input-container flex flex-row items-center rounded-xl bg-gray-100 mt-7">
             <input type="text" placeholder="Search" className="bg-gray-100 text-xl rounded-xl p-3 py-5 px-8 outline-none"/>
             <a>
               <i className='bx bx-search opacity-25 text-4xl mr-4'></i>
