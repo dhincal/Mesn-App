@@ -54,7 +54,7 @@ function UserBrief({imgSrc, username, lastMessage, unreadMessageCount, lastTime}
                 </div>
                 <div className="flex flex-col ml-3 w-8/12">
                     <p className="font-bold text-xl">{username}</p>
-                    <p className="font-semibold">{lastMessage}</p>
+                    <p className="font-semibold">{LastMessageTruncate(lastMessage)}</p>
                 </div>
                 <div className="flex flex-col justify-between h-16 right-0 ">
                     <p className="font-semibold text-center">{LastTimeHandler(lastTime)}</p>
