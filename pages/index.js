@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import UserBrief from '../components/UserBrief.js'
 
 export default function Home() {
   return (
@@ -32,7 +33,36 @@ export default function Home() {
             </a>
           </div>
           <div className="choose-message h-full mt-7 overflow-y-scroll">
-            
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+            <UserBrief username="Toprak Küçük" unreadMessageCount="23" lastTime="549" lastMessage="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"></UserBrief>
+
           </div>
         </div>
       </div>
