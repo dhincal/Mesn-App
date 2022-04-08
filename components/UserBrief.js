@@ -27,12 +27,12 @@ function LastTimeHandler(time){
     }
 }
 function LastMessageTruncate(message){
-    if(message.length > 65){
+    if(message.length > 54){
         if(message.endsWith(" ")){
-            return message.substring(0,64)+"...";
+            return message.substring(0,56)+"...";
         }    
         else{
-            return message.substring(0,63)+"...";
+            return message.substring(0,55)+"...";
         }
     }
     else{
@@ -47,7 +47,7 @@ function UserBrief({imgSrc, username, lastMessage, unreadMessageCount, lastTime}
             <Head>
 
             </Head>
-            <div className="flex flex-row h-max w-full items-center p-3.5">
+            <div className="flex flex-row h-max w-full items-center p-2 m-6">
                 <div className="relative flex w-max h-max">
                     <Image src={imgSrc} className="rounded-full"width={64} height={64} />
                     <span className="absolute h-4 w-4 inset-12 rounded-full" style={{borderWidth:'2.5px', borderColor:'white', backgroundColor:'#1EE826'}}></span>

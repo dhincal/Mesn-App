@@ -37,6 +37,9 @@ a {
 :-moz-placeholder { /* Firefox 18- */
   font-weight: 600;
 }
+.last-messages{
+  height:96vh;
+}
 
 .active {
   text-align: center;
