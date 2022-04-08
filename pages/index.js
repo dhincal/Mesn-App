@@ -22,14 +22,17 @@ export default function Home() {
       <div className="message-select w-1/3">
         <div className="flex flex-row justify-between items-center px-8 h-16 border-b-2 border-r-2">
           <h1 className="font-bold text-3xl">Message</h1>
-          <a className="not-active flex w-12 h-12 rounded-2xl text-3xl items-center justify-center p-4"><i class='bx bxs-message-rounded-add opacity-25'></i></a>
+          <a className="not-active flex w-12 h-12 rounded-2xl text-3xl items-center justify-center p-4"><i className='bx bxs-message-rounded-add opacity-25'></i></a>
         </div>
-        <div className="last-messages flex flex-col h-full items-center">
+        <div className="last-messages flex flex-col items-center" styles={{height:'50vh'}}>
           <div className="group input-container flex flex-row items-center rounded-xl bg-gray-100 mt-7">
             <input type="text" placeholder="Search" className="bg-gray-100 text-xl rounded-xl p-3 py-5 px-8 outline-none"/>
             <a>
               <i className='bx bx-search opacity-25 text-4xl mr-4'></i>
             </a>
+          </div>
+          <div className="choose-message h-full mt-7 overflow-y-scroll">
+            
           </div>
         </div>
       </div>
